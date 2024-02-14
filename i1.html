@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Header</title>
+<link rel="stylesheet" href="styles.css">
+<link href="./output.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+    <div class="menu-btn">
+        <span class="menu-icon" onclick="toggleSidebar()">&#9776;</span>
+      </div>
+  <div class="container">
+    <div class="logo">Your Logo Here</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+    </div>
+    <div class="menu-btn">
+      <span class="menu-icon" onclick="toggleSidebar()">&#9776;</span>
+    </div>
+    <div class="login-btn">
+      <button>Login</button>
+    </div>
+  </div>
+</header>
+
+<div id="sidebar">
+  <ul>
+    <li><a href="#">Option 1</a></li>
+    <li><a href="#">Option 2</a></li>
+    <li><a href="#">Option 3</a></li>
+    <li><a href="#">Option 4</a></li>
+  </ul>
+</div>
+
+<script src="script.js"></script>
+
+
+
+ 
+<div class="hidden lg:flex lg:flex-1 lg:justify-end">
+    <div class=""></div>
+              <a href="indexdark.html">
+                <button type="button"
+                  class="text-white bg-gray-400 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-600 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
+                </label>
+              </a>
+              <a href="signin.html" class="text-sm font-semibold leading-10 text-gray-900">Log in <span
+                  aria-hidden="true">&rarr;</span></a>
+            </div>
+          </nav>
+          <!-- Mobile menu, show/hide based on menu open state. -->
+          <div class="lg:hidden" role="dialog" aria-modal="true">
+            <!-- Background backdrop, show/hide based on slide-over state. -->
+            <div class="fixed inset-0 z-50"></div>
+           
+          </div>
+       </div>
+    
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+          <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            aria-hidden="true">
+            <div
+              class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+              style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+            </div>
+          </div>
+          <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-40">
+            <div class="text-center">
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">New language, new opportunities, new
+                you</h1>
+              <p class="mt-6 text-lg leading-8 text-gray-600"></p>
+              <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="signin.html"
+                  class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get
+                  started</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span
+                    aria-hidden="true">→</span></a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+            aria-hidden="true">
+            <div
+              class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+              style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="bg-white">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-20 lg:max-w-7xl lg:px-8">
+          <h2 class="text-2xl font-bold tracking-tight text-gray-900">Courses We Offer </h2>
+          <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-4 flex flex-row">
+            <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+              <div class="group relative">
+                <!-- ... Spanish language content ... -->
+                        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-30">
+                            <img src="spanishfg.png" alt="Spanish Language" class="h-full w-full object-cover object-center lg:h-40 lg:w-70">
+                        </div>
+                        <div class="mt-4 flex justify-between">
+                            <div>
+                                <h3 class="text-sm text-gray-700">
+                                    <a href="#">
+                                        <span aria-hidden="true" class="absolute inset-0"></span>
+                                        Spanish
+                                    </a>
+                                </h3>
+                                <p class="mt-1 text-sm text-gray-500">Beginner</p>
+                            </div>
+                            <p class="text-sm font-medium text-gray-900">Rs.999</p>
+                        </div>
+            </div>
+            <div class="group relative">
+              <!-- ... French language content ... -->
+                      <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-30">
+                          <img src="frenchfg.png" alt="French Language" class="h-full w-full object-cover object-center lg:h-40 lg:w-70">
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                          <div>
+                              <h3 class="text-sm text-gray-700">
+                                  <a href="#">
+                                      <span aria-hidden="true" class="absolute inset-0"></span>
+                                      French
+                                  </a>
+                              </h3>
+                              <p class="mt-1 text-sm text-gray-500">Beginner</p>
+                          </div>
+                          <p class="text-sm font-medium text-gray-900">Rs.999</p>
+                      </div>
+          </div>
+          <div class="group relative">
+            <!-- ... German language content ... -->
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-30">
+                        <img src="germanfg.png" alt="German Language" class="h-full w-full object-cover object-center lg:h-40 lg:w-70">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    German
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Beginner</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">Rs.999</p>
+                    </div>
+        </div>
+        <div class="group relative">
+          <!-- ... English language content ... -->
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-30">
+                      <img src="britishfg.png" alt="English Language" class="h-full w-full object-cover object-center lg:h-40 lg:w-70">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                      <div>
+                          <h3 class="text-sm text-gray-700">
+                              <a href="#">
+                                  <span aria-hidden="true" class="absolute inset-0"></span>
+                                  English
+                              </a>
+                          </h3>
+                          <p class="mt-1 text-sm text-gray-500">Beginner</p>
+                      </div>
+                      <p class="text-sm font-medium text-gray-900">Rs.999</p>
+                  </div>
+      </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
